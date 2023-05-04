@@ -28,10 +28,36 @@ button {
 }
 
 #list {
+  max-width: 80%;
   margin: 10px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+#tasks{
+  
+}
+#tasks> li{
+  display: flex;
+  min-width: 400px;
+  margin-top: 1rem;
+}
+
+.remove-btn{
+  margin-left: auto;
+  font-size: .75rem;
+}
+.input-field{
+  margin: 0.5rem;
+}
+.input-btn{
+  display: flex;
+}
+input[type="submit"]{
+  margin-inline: auto;
+}
+span.task-info{
+  margin-inline: 0.5rem;
 }
